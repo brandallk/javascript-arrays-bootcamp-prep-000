@@ -8,3 +8,7 @@ var chocolateBars = [
 function addElementToBeginningOfArray(array, elt) {
   
 }
+
+function addElementToBeginningOfArray(array, elt) {
+  
+}
