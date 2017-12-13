@@ -13,5 +13,3 @@ function destructivelyAddElementToBeginningOfArray(array, elt) {
   array.unshift(elt);
   return array;
 }
-
-console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, 'foo'));
