@@ -13,3 +13,12 @@ function destructivelyAddElementToBeginningOfArray(array, elt) {
   array.unshift(elt);
   return array;
 }
+
+function addElementToBeginningOfArray(array, elt) {
+  return [elt, ...array];
+}
+
+function destructivelyAddElementToBeginningOfArray(array, elt) {
+  array.unshift(elt);
+  return array;
+}
