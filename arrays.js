@@ -15,10 +15,10 @@ function destructivelyAddElementToBeginningOfArray(array, elt) {
 }
 
 function addElementToEndOfArray(array, elt) {
-  return [elt, ...array];
+  return [...array, elt];
 }
 
-function destructivelyAddElementToBeginningOfArray(array, elt) {
-  array.unshift(elt);
+function destructivelyAddElementToEndOfArray(array, elt) {
+  array.push(elt);
   return array;
 }
